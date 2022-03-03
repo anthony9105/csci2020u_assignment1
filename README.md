@@ -1,6 +1,7 @@
 # csci2020u_assignment1
 By: Anthony Liscio
 
-https://docs.google.com/presentation/d/1CCI2Z4RFHduYDjqQAQSg8n6qNVrsQYjenZlMZG6lsHA/edit?usp=sharing
 
 https://www.youtube.com/watch?v=376keuzLv_k
+
+[csci2020u_assignment1_Liscio (2).pdf](https://github.com/anthony9105/csci2020u_assignment1/files/8181798/csci2020u_assignment1_Liscio.2.pdf)
