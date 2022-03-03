@@ -1,5 +1,5 @@
 /**
- * Burger abstract class, the parent class of VegBurger and ChickenBurger classes
+ * Burger abstract class, the parent class of VegBurger, ChickenBurger, BeefBurger classes
  */
 public abstract class Burger implements Item
 {
@@ -14,8 +14,15 @@ public abstract class Burger implements Item
 
     /**
      * overrides price method from Item interface
-     * implemented in VegBurger and ChickenBurger child classes
+     * implemented in VegBurger, ChickenBurger, BeefBurger child classes
      */
     @Override
     public abstract float price();
+
+    /**
+     * overrides calories method from Item interface
+     * implemented in VegBurger, ChickenBurger, and BeefBurger child classes
+     */
+    @Override
+    public abstract int calories();
 }

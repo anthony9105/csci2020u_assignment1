@@ -1,35 +1,36 @@
 /**
- * ChickenBurger class, the child class of Burger
+ * VegBurger class, the child class of Burger
+ * Additional burger type
  */
-public class ChickenBurger extends Burger
+public class BeefBurger extends Burger
 {
     /**
      * implements price method from Burger
-     * @return - float price of a chicken burger
+     * @return - float price of a beef burger
      */
     @Override
     public float price()
     {
-        return 5.00f;
+        return 4.50f;
     }
 
     /**
      * implements name method from Burger
-     * @return - String name of a chicken burger
+     * @return - String name of a beef burger
      */
     @Override
     public String name()
     {
-        return "Chicken Burger";
+        return "Beef Burger";
     }
 
     /**
      * implements calories from Burger
-     * @return - int amount of calories of a chicken burger
+     * @return - int amount of calories of a beef burger
      */
     @Override
     public int calories()
     {
-        return 221;
+        return 274;
     }
 }

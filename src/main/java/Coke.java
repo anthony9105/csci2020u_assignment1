@@ -10,7 +10,7 @@ public class Coke extends ColdDrink
     @Override
     public float price()
     {
-        return 30.0f;
+        return 3.00f;
     }
 
     /**
@@ -21,5 +21,15 @@ public class Coke extends ColdDrink
     public String name()
     {
         return "Coke";
+    }
+
+    /**
+     * implements calories from ColdDrink
+     * @return - int amount of calories of a bottle of Coke
+     */
+    @Override
+    public int calories()
+    {
+        return 240;
     }
 }

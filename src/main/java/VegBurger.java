@@ -10,7 +10,7 @@ public class VegBurger extends Burger
     @Override
     public float price()
     {
-        return 25.0f;
+        return 2.50f;
     }
 
     /**
@@ -21,5 +21,15 @@ public class VegBurger extends Burger
     public String name()
     {
         return "Veg Burger";
+    }
+
+    /**
+     * implements calories method from Burger
+     * @return - int calories of a vegetable burger
+     */
+    @Override
+    public int calories()
+    {
+        return 240;
     }
 }

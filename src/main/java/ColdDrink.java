@@ -18,4 +18,11 @@ public abstract class ColdDrink implements Item
      */
     @Override
     public abstract float price();
+
+    /**
+     * overrides calories method from Item interface
+     * implemented in Coke, and Pepsi child classes
+     */
+    @Override
+    public abstract int calories();
 }

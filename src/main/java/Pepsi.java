@@ -10,7 +10,7 @@ public class Pepsi extends ColdDrink
     @Override
     public float price()
     {
-        return 35.0f;
+        return 3.50f;
     }
 
     /**
@@ -21,5 +21,15 @@ public class Pepsi extends ColdDrink
     public String name()
     {
         return "Pepsi";
+    }
+
+    /**
+     * implements calories from ColdDrink
+     * @return - int amount of calories of a bottle of Pepsi
+     */
+    @Override
+    public int calories()
+    {
+        return 250;
     }
 }
