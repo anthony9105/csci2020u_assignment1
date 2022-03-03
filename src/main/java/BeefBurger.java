@@ -1,5 +1,5 @@
 /**
- * VegBurger class, the child class of Burger
+ * BeefBurger class, the child class of Burger
  * Additional burger type
  */
 public class BeefBurger extends Burger

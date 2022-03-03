@@ -1,7 +1,8 @@
 /**
  * Anthony Liscio
  * Meal builder project - using the Design Pattern: Builder Pattern
- * Creates a meal of the user's choice and displays the costs and total costs of your final meal.
+ * Creates a meal of the user's choice and displays the costs, calories, packing types, subtotal, tax, total costs,
+ * total calories, amount of food items, and amount of drink items of your final meal.
  * Uses a simple UI (JOptionPane) for user prompts and display messages
  */
 
