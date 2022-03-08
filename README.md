@@ -1,4 +1,5 @@
 # csci2020u_assignment1
+Implementation of the Builder Pattern in Java
 By: Anthony Liscio
 
 
